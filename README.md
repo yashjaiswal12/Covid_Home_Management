@@ -1,0 +1,2 @@
+# Covid_Home_Management
+We are creating an application for mild patients that are home quarantine with concern of doctors. In this application user has to login first &amp; after login he needs to update his/her oxygen level &amp; BPM level by duration of 1hr if his/her oxygen may below 90 then one mail automatically has been sent to his/her doctor.for admin of district we are also providing the info. About blood, how much blood available in the district he needs to update it as well. We are also providing some detailed information about awareness of covid.
