@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FAQAct">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="390dp"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="1)Why do I have to go into quarantine even though my test was negative?"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:textColor="@color/black"
+        android:textSize="14dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="390dp"
+        android:layout_height="82dp"
+        android:textSize="14dp"
+        android:text="Ans.A negative test result does not mean the quarantine requirement is lifted,under certain
+circumstances it's possible to shorten quarantine from day 7 onwards.In order to protect other
+people,you must therefore also go into quarantine even if the test is negative."
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.093" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="390dp"
+        android:layout_height="wrap_content"
+        android:text="2) I have symptoms. What should I do?"
+        android:textColor="@color/black"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.219" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="390dp"
+        android:layout_height="wrap_content"
+        android:text="3)I have received a positive test result. What do I do next"
+        android:textColor="@color/black"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.523" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="390dp"
+        android:layout_height="wrap_content"
+        android:text="4)I have had contact with a person who has tested positive. What should I do?"
+        android:textColor="@color/black"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.749" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="390dp"
+        android:layout_height="wrap_content"
+        android:text="Ans.It is important for as many cases of infection with the coronavirus to be identified as possible.
+For this reason we recommend a test even if you have only mild symptoms.follow this,
+ 1.Reduce contact: Stay at home and avoid all contact with other people.
+ 2.Test: Have a test immediately if you have symptoms or this is recommended by your doctor.
+ 3.Until the test results are available: Stay at home, follow the instructions on isolation and avoid
+all contact with other people until the result of the test is available. Depending on the result, follow the
+instructions for a positive test result or a negative test result"
+        android:textColor="@color/black"
+        android:textSize="14dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.319" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="390dp"
+        android:layout_height="wrap_content"
+        android:text="Ans.Go into isolation immediately. Follow the instructions on isolation and avoid all contact with other
+people. If you live with other people in the same household, set yourself up in one room on your own.
+Isolation normally lasts 10 days . Depending on your state of health, however, it may last longer. You can
+come out of isolation if at least 10 days have passed and you have had no more symptoms for the last 48
+hours.
+"
+        android:textColor="@color/black"
+        android:textSize="14dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.637" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="390dp"
+        android:layout_height="wrap_content"
+        android:text="Ans.After contact with a person who has tested positive for the coronavirus, you may be contagious
+(able to infect other people) for the next few days without realising. What you should do now depends
+on whether the person who has tested positive was contagious during the contact and whether the
+contact was close. "
+        android:textColor="@color/black"
+        android:textSize="14dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.898" />
+
+    <Button
+        android:id="@+id/nextfaq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.965"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
